@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaurusAlgoFX</title>
+  <link rel="icon" href="/favicon.ico" type="image/Taurus-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+    header { padding: 2rem; text-align: center; background-color: #1e293b; }
+    header img { width: 80px; height: 80px; margin-bottom: 1rem; }
+    header h1 { font-size: 2.5rem; color: #facc15; }
+    header p { font-size: 1.1rem; color: #94a3b8; margin-top: 0.5rem; }
+
+    nav { display: flex; justify-content: center; gap: 2rem; background-color: #0f172a; padding: 1rem 0; border-bottom: 1px solid #334155; }
+    nav a { text-decoration: none; color: #f1f5f9; font-weight: 600; transition: color 0.3s ease; }
+    nav a:hover { color: #38bdf8; }
+
+    .hero { text-align: center; padding: 4rem 2rem; background: linear-gradient(to right, #1e3a8a, #2563eb); }
+    .hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 4rem 2rem; background-color: #1e293b; }
+    .feature-card { background-color: #334155; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .feature-card h3 { color: #38bdf8; margin-bottom: 1rem; }
+
+    .footer { text-align: center; padding: 2rem; background-color: #0f172a; color: #64748b; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/A_logo_design_in_a_digital_2D_vector_graphic_forma.png" alt="Taurus Robo Golden Logo">
+    <h1>TaurusAlgoFX</h1>
+    <p>Automated Precision. Tailored Profits.</p>
+  </header>
+
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Trade Smarter with AI‑Driven Forex Robots</h2>
+    <p>Our expert-built algorithms are designed to identify opportunities, manage risk, and deliver real results in all market conditions.</p>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h3>Smart Entries & Exits</h3>
+      <p>Our bots use technical structures, volume analysis, and EMA filters for intelligent trade decisions.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Risk Management</h3>
+      <p>Built-in stop loss, dynamic trailing, and lot sizing systems protect your capital every step of the way.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Multi‑Timeframe Strategy</h3>
+      <p>Combining higher timeframe trend detection with lower timeframe execution for optimal trades.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Backtested & Proven</h3>
+      <p>All robots are tested on historical data and optimized for live performance and consistency.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 TaurusAlgoFX. All rights reserved.
+  </footer>
+</body>
+</html>
